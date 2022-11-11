@@ -1,0 +1,191 @@
+/* reset */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Anton', sans-serif;
+
+}
+
+/* Etiquetas del Home */
+
+body{
+    background-color: black;
+}
+
+/* Header */
+
+h1{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: rgb(238, 160, 42);
+    font-size: 160px;
+}
+
+nav ul li a{   
+    color: rgb(238, 160, 42);
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+nav ul li{
+    width: 200px;
+    margin: 90px 0px 0px 0px;
+    padding: 15px;
+    border: 6px solid rgb(238, 160, 42);
+    text-align: center;
+    display: inline-block;
+}
+
+header nav{
+    text-align: center;
+
+}
+
+/* Main */
+
+main h2{
+    color: rgb(238, 160, 42);
+    margin: 150px 0px 100px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main table{
+    display: inline-block;
+    margin: 0px 100px 0px 100px;
+    overflow: auto;
+
+
+}
+
+main table tr td div p a{
+    color: rgb(238, 160, 42);
+    margin: 10px 0px 10px 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+main p{
+    color: rgb(238, 160, 42);
+    text-align: center;
+}
+
+.texto-debajo-de-imagen{
+    text-align: center;
+    margin: 45px 0px 45px 0px;
+    text-transform: uppercase;
+}
+
+
+/* footer */
+
+footer h3{
+    color: rgb(238, 160, 42);
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 0px 0px 25px 25px;
+}
+
+footer a{
+    color: rgb(238, 160, 42);
+}
+
+
+/* HTML Nosotros Ajustes */
+
+h2{
+    color: rgb(238, 160, 42);
+    margin: 45px 0px 0px 0px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.nosotros-html{
+    font-size: 75px;
+}
+
+h3{
+    color: rgb(238, 160, 42);
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 80px 0px 0px 0px;
+}
+
+.main-nosotros{
+    color: rgb(238, 160, 42);
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 80px 0px 100px 0px;
+}
+
+
+/* HTML Precios */
+
+.titulo-precios{
+    font-size: 120px;
+}
+
+.planes-shiba-1-2-3{
+    color: rgb(238, 160, 42);
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+body main ol div{
+    color: rgb(238, 160, 42);
+    margin-top: 15px;
+    margin-bottom: 45px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* HTML WOD */
+
+.footer-of-wod{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* HTML Contacto */
+
+.h1-of-contacto{
+    font-size: 120px;
+}
+
+.main-of-contacto{
+    color: rgb(238, 160, 42);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.h2-of-contacto{
+    margin-top: 80px;
+}
+
+.table-of-contacto{
+    text-align: left;
+}
+
+/* HTML Preguntas Frecuentes */
+
+h4{
+    color: rgb(238, 160, 42);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.todo .imagen-inicial img{
+    object-fit: cover;
+    max-width: 100%;
+}
+
