@@ -8,37 +8,54 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- Link de mi CSS -->
     <link rel="stylesheet" href="Estilocss/Style.css">
     <title>Shiba Fit Club</title>
 </head>
-<body>
-    <!--Encabezado-->
+<body class="contenedor">
+    <!--Encabezado-->  
 
     <header>
-        <h1>Shiba Fit Club</h1>
+        <h1 class="titulo efecto-titulo">Shiba Fit Club </h1>
         <!--Menu de Navegacion-->
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Bienvenidos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
-                <li>
-                    <a href="pages/nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="pages/precios.html">Precios</a>
-                </li>
-                <li>
-                    <a href="pages/wod.html">WoD</a>
-                </li>
-                <li>
-                    <a href="pages/contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <a href="pages/preguntas-frecuentes.html">Preguntas Frecuentes</a>
-                </li>
-            </ul>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="pages/wod.html">WoD</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="pages/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Precios Por Plan
+                    </a>
+                    <ul class="dropdown-menu bg-warning">
+                      <li><a class="dropdown-item" href="pages/precios.html">Plan 1</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="pages/precios.html">Plan 2</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="pages/precios.html">Plan 3</a></li>
+                    </ul>
+                  </li>
+                </ul>
+            </div>
+            </div>
         </nav>
 
     </header>
@@ -46,55 +63,45 @@
     <!--Contenido Principal-->
 
     <main>
-        <h2>
+        <h3 class="entrena-siempre">
             Entrena siempre a tu ritmo y encuentra el mejor plan que se adapte a ti, si entrenas 1 vez por semana, 3 veces por semana o todos los dias, tenemos un plan para ti.
-        </h2>
-
-     <!--Tabla y Contenido Multimedia-->
-
-        <table class="todo">
-            <tr>
-                <td>
-                    <div class="imagen-inicial">
-                        <img src="img/imagen1.jpg" alt=""width="500" height="400" />
-                        <p>
-                            <a href="pages/precios.html">Plan Shiba1</a>
-                        </p>
-                    </div>
-                </td>
-                <td>
-                    <div class="imagen-inicial">
-                         <img src="img/imagen3.jpg" alt=""width="500" height="400" />
-                    <p>
-                        <a href="pages/precios.html">Plan Shiba2</a>
-                    </p>
-                    </div>
-                   
-                </td>
-                <td>
-                    <div class="imagen-inicial">
-                     <img src="img/imagen2.jpg" alt=""width="500" height="400" />
-                    <p>
-                        <a href="pages/precios.html">Plan Shiba3</a>
-                    </p>
-                    </div>
-             
-                </td>
-            </tr>
-        </table>
+        </h3>
 
 
         <p class="texto-debajo-de-imagen">
-            Encuentra la mejor forma de entrenar desde cualquier lugar del mundo y en cualquier horario.
+            Encuentra la mejor forma de entrenar desde cualquier lugar del mundo y en cualquier momento.
         </p>
+
+        <div class="imagen1">
+            <img src="img/imagen1.jpg" alt="Pesas en el suelo">
+                <a href="pages/precios.html">PLAN 1</a>
+        </div>
+        <div class="imagen2">
+            <img src="img/imagen3.jpg" alt="Hombre con Pesas">
+                <a href="pages/precios.html">PLAN 2</a>
+        </div>
+        <div class="imagen3">
+            <img src="img/imagen2.jpg" alt="Mujer entrenando">
+                <a href="pages/precios.html">PLAN 3</a>
+        </div>
+
     </main>
+
+    <section>
+
+        <p>
+            El mejor momento fue ayer, el nuevo mejor momento es AHORA
+        </p>
+
+    </section>
+
 
     <!--Footer o Pie de Pagina-->
 
     <footer>
-        <h3>
+        <h4>
             Buenos Aires, Todos los derechos reservados, web creada por Walter Caseres
-        </h3>
+        </h4>
 
      <!-- Enlaces Internos Entre nuestro propio HTML -->
 
@@ -108,6 +115,9 @@
     </footer>
 
 
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
+    
 </body>
 </html>

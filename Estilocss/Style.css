@@ -4,188 +4,214 @@
     margin: 0%;
     padding: 0%;
     font-family: 'Anton', sans-serif;
-
+    box-sizing: border-box;
 }
 
-/* Etiquetas del Home */
+/* Estilos de Generales */
 
 body{
-    background-color: black;
+    background-color:  rgb(238, 160, 42);
 }
 
-/* Header */
+/* Estilos de Header */
 
-h1{
-    color: black;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: underline;
-    background-color: rgb(238, 160, 42);
-    font-size: 160px;
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-nav ul li a{   
-    color: rgb(238, 160, 42);
-    display: inline-block;
-    text-transform: uppercase;
+header nav ul{
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+    margin-bottom: 1rem;
 }
 
-nav ul li{
-    width: 200px;
-    margin: 90px 0px 0px 0px;
-    padding: 15px;
-    border: 6px solid rgb(238, 160, 42);
-    text-align: center;
-    display: inline-block;
+header nav ul li{
+    list-style: none;
+    background-color: rgb(231, 153, 37);
+    padding: 0.2rem;
 }
 
-header nav{
-    text-align: center;
-
+.titulo{
+    font-size: 5rem;
+    font-weight: bold;
+    border-top: 1%;
+    margin-top: 10px;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 15px;
 }
 
-/* Main */
+/* Estilos de Main */
 
-main h2{
-    color: rgb(238, 160, 42);
-    margin: 150px 0px 100px 0px;
-    text-align: center;
-    text-transform: uppercase;
+main{
+    display: flex;
+    flex-direction: column;
 }
 
-main table{
-    display: inline-block;
-    margin: 0px 100px 0px 100px;
-    overflow: auto;
-
-
+main div{
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-main table tr td div p a{
-    color: rgb(238, 160, 42);
-    margin: 10px 0px 10px 0px;
-    display: inline-block;
-    text-align: center;
+main div img{
+    padding: 2rem;
 }
 
-main p{
-    color: rgb(238, 160, 42);
+main div img a{
     text-align: center;
 }
 
-.texto-debajo-de-imagen{
+.entrena-siempre{
     text-align: center;
-    margin: 45px 0px 45px 0px;
-    text-transform: uppercase;
 }
 
+/* Estilos de Wod */
 
-/* footer */
-
-footer h3{
-    color: rgb(238, 160, 42);
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: underline;
-    margin: 0px 0px 25px 25px;
+.titulo-wod{
+    font-size: 3rem;
+    font-weight: bold;
+    border-top: 1%;
+    margin-top: 10px;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 15px;
 }
 
-footer a{
-    color: rgb(238, 160, 42);
-}
-
-
-/* HTML Nosotros Ajustes */
-
-h2{
-    color: rgb(238, 160, 42);
-    margin: 45px 0px 0px 0px;
-    text-align: center;
-    text-decoration: underline;
-    font-size: 30px;
-}
-
-.nosotros-html{
-    font-size: 75px;
-}
-
-h3{
-    color: rgb(238, 160, 42);
-    font-size: 25px;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 80px 0px 0px 0px;
-}
-
-.main-nosotros{
-    color: rgb(238, 160, 42);
-    font-size: 25px;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 80px 0px 100px 0px;
-}
-
-
-/* HTML Precios */
+/* Estilos de Precios */
 
 .titulo-precios{
-    font-size: 120px;
+    font-size: 3rem;
+    font-weight: bold;
+    border-top: 1%;
+    margin-top: 10px;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 15px;
 }
 
 .planes-shiba-1-2-3{
-    color: rgb(238, 160, 42);
     text-align: center;
-    text-transform: uppercase;
-    text-decoration: underline;
-    margin-top: 100px;
-    font-size: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-top: 1%;
+    margin-top: 10px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 15px;
 }
 
-body main ol div{
-    color: rgb(238, 160, 42);
-    margin-top: 15px;
-    margin-bottom: 45px;
+.div-precios{
     text-align: center;
-    font-size: 30px;
 }
 
-/* HTML WOD */
 
-.footer-of-wod{
-    margin-top: 40px;
-    margin-bottom: 40px;
+/* Estilos de footer */
+
+.footer-precios{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
-/* HTML Contacto */
+/* Estilos de hover */
+
+.efecto-titulo:hover{
+    background-color: aqua;
+    transform: scale(0.8);
+}
+
+main div img:hover{
+    background-color: black;
+    transform: scale(0.8);
+}
+
+.titulo-wod:hover{
+    background-color: aqua;
+    transform: scale(0.8);
+}
+
+.titulo-preguntas:hover{
+    background-color: aqua;
+    transform: scale(0.8);   
+}
+
+.titulo-preguntas{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    border-top: 1%;
+    margin-top: 10px;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+
+.titulo-nosotros:hover{
+    background-color: aqua;
+    transform: scale(0.8);  
+}
+
+.titulo-nosotros{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    border-top: 1%;
+    margin-top: 10px;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+
+.h1-of-contacto:hover{
+    background-color: aqua;
+    transform: scale(0.8);  
+}
 
 .h1-of-contacto{
-    font-size: 120px;
-}
-
-.main-of-contacto{
-    color: rgb(238, 160, 42);
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.h2-of-contacto{
-    margin-top: 80px;
-}
-
-.table-of-contacto{
-    text-align: left;
-}
-
-/* HTML Preguntas Frecuentes */
-
-h4{
-    color: rgb(238, 160, 42);
+    font-size: 2rem;
     text-align: center;
-    padding-top: 20px;
+    font-weight: bold;
+    border-top: 1%;
+    margin-top: 10px;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 15px;
 }
 
-.todo .imagen-inicial img{
-    object-fit: cover;
-    max-width: 100%;
+.titulo-precios:hover{
+    background-color: aqua;
+    transform: scale(0.8);  
 }
-
