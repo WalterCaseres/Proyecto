@@ -1,217 +1,205 @@
 /* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-*{
-    margin: 0%;
-    padding: 0%;
-    font-family: 'Anton', sans-serif;
-    box-sizing: border-box;
-}
+/* estilos para el home */
+body {
+  background-color: black; }
+
+header {
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  color: #ffc107; }
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Anton', sans-serif;
+  box-sizing: border-box; }
 
 /* Estilos de Generales */
-
-body{
-    background-color:  rgb(238, 160, 42);
-}
+body {
+  background-color: #eea02a; }
 
 /* Estilos de Header */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+header nav ul {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+  margin-bottom: 1rem; }
 
-header nav ul{
-    display: flex;
-    margin-top: 1rem;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
+header nav ul li {
+  list-style: none;
+  background-color: #e79925;
+  padding: 0.2rem; }
 
-header nav ul li{
-    list-style: none;
-    background-color: rgb(231, 153, 37);
-    padding: 0.2rem;
-}
-
-.titulo{
-    font-size: 5rem;
-    font-weight: bold;
-    border-top: 1%;
-    margin-top: 10px;
-    border-color: black;
-    border-width: 10px;
-    border-style: solid;
-    padding-top: 10px;
-    padding-left: 15px;
-    padding-bottom: 10px;
-    padding-right: 15px;
-}
+.titulo {
+  font-size: 5rem;
+  font-weight: bold;
+  border-top: 1%;
+  margin-top: 10px;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+  padding-top: 10px 15px 10px 15px; }
 
 /* Estilos de Main */
+main {
+  display: flex;
+  flex-direction: column; }
 
-main{
-    display: flex;
-    flex-direction: column;
-}
+main div {
+  gap: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
 
-main div{
-    gap: 2rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+main div img {
+  padding: 2rem; }
 
-main div img{
-    padding: 2rem;
-}
+main div img a {
+  text-align: center; }
 
-main div img a{
-    text-align: center;
-}
-
-.entrena-siempre{
-    text-align: center;
-}
+.entrena-siempre {
+  text-align: center; }
 
 /* Estilos de Wod */
-
-.titulo-wod{
-    font-size: 3rem;
-    font-weight: bold;
-    border-top: 1%;
-    margin-top: 10px;
-    border-color: black;
-    border-width: 10px;
-    border-style: solid;
-    padding-top: 10px;
-    padding-left: 15px;
-    padding-bottom: 10px;
-    padding-right: 15px;
-}
+.titulo-wod {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  border-top: 1%;
+  margin-top: 10px;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-right: 15px; }
 
 /* Estilos de Precios */
+.titulo-precios {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  border-top: 1%;
+  margin-top: 10px;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-right: 15px; }
 
-.titulo-precios{
-    font-size: 3rem;
-    font-weight: bold;
-    border-top: 1%;
-    margin-top: 10px;
-    border-color: black;
-    border-width: 10px;
-    border-style: solid;
-    padding-top: 10px;
-    padding-left: 15px;
-    padding-bottom: 10px;
-    padding-right: 15px;
-}
+.planes-shiba-1-2-3 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  border-top: 1%;
+  margin-top: 10px;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-right: 15px; }
 
-.planes-shiba-1-2-3{
-    text-align: center;
-    font-size: 1rem;
-    font-weight: bold;
-    border-top: 1%;
-    margin-top: 10px;
-    border-color: black;
-    border-width: 1px;
-    border-style: solid;
-    padding-top: 10px;
-    padding-left: 15px;
-    padding-bottom: 10px;
-    padding-right: 15px;
-}
-
-.div-precios{
-    text-align: center;
-}
-
+.div-precios {
+  text-align: center; }
 
 /* Estilos de footer */
-
-.footer-precios{
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
+.footer-precios {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
 
 /* Estilos de hover */
+.efecto-titulo:hover {
+  background-color: aqua;
+  transform: scale(0.8); }
 
-.efecto-titulo:hover{
-    background-color: aqua;
-    transform: scale(0.8);
-}
+main div img:hover {
+  background-color: black; }
 
-main div img:hover{
-    background-color: black;
-    transform: scale(0.8);
-}
+.titulo-wod:hover {
+  background-color: aqua;
+  transform: scale(0.8); }
 
-.titulo-wod:hover{
-    background-color: aqua;
-    transform: scale(0.8);
-}
+.titulo-preguntas:hover {
+  background-color: aqua;
+  transform: scale(0.8); }
 
-.titulo-preguntas:hover{
-    background-color: aqua;
-    transform: scale(0.8);   
-}
+.titulo-preguntas {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  border-top: 1%;
+  margin-top: 10px;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-right: 15px; }
 
-.titulo-preguntas{
-    font-size: 2rem;
-    text-align: center;
-    font-weight: bold;
-    border-top: 1%;
-    margin-top: 10px;
-    border-color: black;
-    border-width: 10px;
-    border-style: solid;
-    padding-top: 10px;
-    padding-left: 15px;
-    padding-bottom: 10px;
-    padding-right: 15px;
-}
+.titulo-nosotros:hover {
+  background-color: aqua;
+  transform: scale(0.8); }
 
-.titulo-nosotros:hover{
-    background-color: aqua;
-    transform: scale(0.8);  
-}
+.titulo-nosotros {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  border-top: 1%;
+  margin-top: 10px;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-right: 15px; }
 
-.titulo-nosotros{
-    font-size: 2rem;
-    text-align: center;
-    font-weight: bold;
-    border-top: 1%;
-    margin-top: 10px;
-    border-color: black;
-    border-width: 10px;
-    border-style: solid;
-    padding-top: 10px;
-    padding-left: 15px;
-    padding-bottom: 10px;
-    padding-right: 15px;
-}
+.h1-of-contacto:hover {
+  background-color: aqua;
+  transform: scale(0.8); }
 
-.h1-of-contacto:hover{
-    background-color: aqua;
-    transform: scale(0.8);  
-}
+.h1-of-contacto {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  border-top: 1%;
+  margin-top: 10px;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-right: 15px; }
 
-.h1-of-contacto{
-    font-size: 2rem;
-    text-align: center;
-    font-weight: bold;
-    border-top: 1%;
-    margin-top: 10px;
-    border-color: black;
-    border-width: 10px;
-    border-style: solid;
-    padding-top: 10px;
-    padding-left: 15px;
-    padding-bottom: 10px;
-    padding-right: 15px;
-}
+.titulo-precios:hover {
+  background-color: aqua;
+  transform: scale(0.8); }
 
-.titulo-precios:hover{
-    background-color: aqua;
-    transform: scale(0.8);  
-}
+main div a {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  list-style: none;
+  align-items: center;
+  gap: 1rem; }

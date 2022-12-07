@@ -1,0 +1,184 @@
+/* estilos para el home */
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    color: $color-texto;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Anton', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Estilos de Generales */
+
+body{
+    background-color:  rgb(238, 160, 42);
+}
+
+/* Estilos de Header */
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+header nav ul li{
+    list-style: none;
+    background-color: rgb(231, 153, 37);
+    padding: 0.2rem;
+}
+
+.titulo{
+    font-size: 5rem;
+    font-weight: bold;
+    border-top: 1%;
+    margin-top: 10px;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    padding-top: 10px 15px 10px 15px
+}
+
+/* Estilos de Main */
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main div{
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main div img{
+    padding: 2rem;
+}
+
+main div img a{
+    text-align: center;
+}
+
+.entrena-siempre{
+    text-align: center;
+}
+
+/* Estilos de Wod */
+
+.titulo-wod{
+    @include formato;
+}
+
+/* Estilos de Precios */
+
+.titulo-precios{
+    @include formato;
+}
+
+.planes-shiba-1-2-3{
+    @include formato;
+}
+
+.div-precios{
+    text-align: center;
+}
+
+
+/* Estilos de footer */
+
+.footer-precios{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Estilos de hover */
+
+.efecto-titulo:hover{
+    background-color: aqua;
+    transform: scale(0.8);
+}
+
+main div img:hover{
+    background-color: black;
+
+}
+
+.titulo-wod:hover{
+    background-color: aqua;
+    transform: scale(0.8);
+}
+
+.titulo-preguntas:hover{
+    background-color: aqua;
+    transform: scale(0.8);   
+}
+
+.titulo-preguntas{
+    @include formato;
+}
+
+.titulo-nosotros:hover{
+    background-color: aqua;
+    transform: scale(0.8);  
+}
+
+.titulo-nosotros{
+    @include formato;
+}
+
+.h1-of-contacto:hover{
+    background-color: aqua;
+    transform: scale(0.8);  
+}
+
+.h1-of-contacto{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    border-top: 1%;
+    margin-top: 10px;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+
+.titulo-precios:hover{
+    background-color: aqua;
+    transform: scale(0.8);  
+}
+
+main div a{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+}
+

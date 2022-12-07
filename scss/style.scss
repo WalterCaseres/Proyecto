@@ -1,0 +1,13 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// importanto arvicos secundarios
+
+@import "utilidades/variables";
+@import "utilidades/mixin";
+@import "contenedores/home";
